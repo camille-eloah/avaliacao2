@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens de {{ usuario }}</title>
+</head>
+<body>
+    <h1>Mensagens de {{ usuario }}</h1>
+    <ul>
+        {% for mensagem in mensagens %}
+            <li>{{ mensagem }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
